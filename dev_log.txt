@@ -1,0 +1,9 @@
+
+Development Log for RPS (Rock Paper Scissors) Game
+
+
+24 May 2015 / kencoder
+------------------------------
+- Setup Resolution Policy
+- Setup TDD Library
+- Setup Github 
