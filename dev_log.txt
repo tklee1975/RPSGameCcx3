@@ -1,8 +1,16 @@
 
 Development Log for RPS (Rock Paper Scissors) Game
 
+24 May 2015 / kencoder
+
+------------------------------
+- Prepare the assets
+- Setup the CococStudio project for RPS Game
+- Add UnitTest to make sure the resource are ready
+
 
 24 May 2015 / kencoder
+(https://github.com/tklee1975/RPSGameCcx3/releases/tag/initial_with_tddlib)
 ------------------------------
 - Setup Resolution Policy
 - Setup TDD Library

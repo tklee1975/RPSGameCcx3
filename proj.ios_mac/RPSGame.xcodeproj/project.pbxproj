@@ -79,6 +79,10 @@
 		73E81B1E1B11DA1B004B8F26 /* TDDSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81B061B11DA1B004B8F26 /* TDDSwitch.cpp */; };
 		73E81B1F1B11DA1B004B8F26 /* TDDTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81B081B11DA1B004B8F26 /* TDDTest.cpp */; };
 		73E81B201B11DA1B004B8F26 /* TDDTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81B081B11DA1B004B8F26 /* TDDTest.cpp */; };
+		73E81B231B138D5C004B8F26 /* ResourceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81B211B138D5C004B8F26 /* ResourceTest.cpp */; };
+		73E81B241B138D5D004B8F26 /* ResourceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81B211B138D5C004B8F26 /* ResourceTest.cpp */; };
+		73E81B261B138D6C004B8F26 /* gui in Resources */ = {isa = PBXBuildFile; fileRef = 73E81B251B138D6C004B8F26 /* gui */; };
+		73E81B271B138D6C004B8F26 /* gui in Resources */ = {isa = PBXBuildFile; fileRef = 73E81B251B138D6C004B8F26 /* gui */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -196,6 +200,9 @@
 		73E81B091B11DA1B004B8F26 /* TDDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDTest.h; sourceTree = "<group>"; };
 		73E81B0A1B11DA1B004B8F26 /* TDDTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDTypes.h; sourceTree = "<group>"; };
 		73E81B0C1B11DA1B004B8F26 /* MyTDDCases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTDDCases.h; sourceTree = "<group>"; };
+		73E81B211B138D5C004B8F26 /* ResourceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceTest.cpp; sourceTree = "<group>"; };
+		73E81B221B138D5C004B8F26 /* ResourceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceTest.h; sourceTree = "<group>"; };
+		73E81B251B138D6C004B8F26 /* gui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gui; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -321,6 +328,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				73E81B251B138D6C004B8F26 /* gui */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -426,6 +434,8 @@
 		73E81B0B1B11DA1B004B8F26 /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				73E81B211B138D5C004B8F26 /* ResourceTest.cpp */,
+				73E81B221B138D5C004B8F26 /* ResourceTest.h */,
 				73E81B0C1B11DA1B004B8F26 /* MyTDDCases.h */,
 			);
 			path = UnitTest;
@@ -531,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E81B261B138D6C004B8F26 /* gui in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
@@ -561,6 +572,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E81B271B138D6C004B8F26 /* gui in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
@@ -586,6 +598,7 @@
 				73E81B0F1B11DA1B004B8F26 /* TDDData.cpp in Sources */,
 				73E81B191B11DA1B004B8F26 /* TDDSubMenu.cpp in Sources */,
 				73E81B171B11DA1B004B8F26 /* TDDSample.cpp in Sources */,
+				73E81B231B138D5C004B8F26 /* ResourceTest.cpp in Sources */,
 				73E81B1F1B11DA1B004B8F26 /* TDDTest.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
@@ -600,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E81B1E1B11DA1B004B8F26 /* TDDSwitch.cpp in Sources */,
+				73E81B241B138D5D004B8F26 /* ResourceTest.cpp in Sources */,
 				73E81B101B11DA1B004B8F26 /* TDDData.cpp in Sources */,
 				73E81B161B11DA1B004B8F26 /* TDDMenuTest.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,

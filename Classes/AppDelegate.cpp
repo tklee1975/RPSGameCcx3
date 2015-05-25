@@ -64,6 +64,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     register_all_packages();
+	
+	// Setup File path
+	FileUtils::getInstance()->addSearchPath("gui");
+	FileUtils::getInstance()->addSearchPath("res");
+	FileUtils::getInstance()->addSearchPath("fonts");
+	
 
     // create a scene. it's an autorelease object
     auto scene = HelloWorld::createScene();
