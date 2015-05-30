@@ -1,12 +1,21 @@
 
 Development Log for RPS (Rock Paper Scissors) Game
 
-24 May 2015 / kencoder
+30 May 2015 / kencoder
+(https://github.com/tklee1975/RPSGameCcx3/releases/tag/home_scene)
+------------------------------
+- Add CocosStudio files for the HomeScene
+- Add HomeScene (using CocosStudio); Also replaced the HelloWorldScene
+- Add ViewHelper; A Helper class supporting the HomeScene
 
+
+24 May 2015 / kencoder
+(https://github.com/tklee1975/RPSGameCcx3/releases/tag/setup_cocos_studio)
 ------------------------------
 - Prepare the assets
 - Setup the CococStudio project for RPS Game
 - Add UnitTest to make sure the resource are ready
+
 
 
 24 May 2015 / kencoder
@@ -15,3 +24,6 @@ Development Log for RPS (Rock Paper Scissors) Game
 - Setup Resolution Policy
 - Setup TDD Library
 - Setup Github 
+
+
+

@@ -1,9 +1,10 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "HomeScene.h"
 
 USING_NS_CC;
 
-#define kDesignWidth	480
+#define kDesignWidth	568
 #define kDesignHeight	320
 
 AppDelegate::AppDelegate() {
@@ -72,7 +73,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
+    // auto scene = HelloWorld::createScene();
+	auto scene = HomeSceneLayer::createScene();
 
     // run
     director->runWithScene(scene);

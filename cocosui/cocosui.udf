@@ -11,12 +11,20 @@
         <iOS_Target Value="cocosui iOS" />
         <iOS_BundleID Value="iPhone Developer: Ting Kwok Lee (NBAY29J2MG)" />
         <Platform Value="Android" />
-        <PublishSetting Value="Resource" />
         <FrameworkVersion Value="cocos2d-x-3.4" />
         <IsDebugKeystore Value="True" />
         <KeystorePassword Value="" />
         <KeystoreAliasName Value="" />
         <KeystoreAliasPassword Value="" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="CocosRecentOperation">
+      <Value ctype="CocosRecentOperation">
+        <LastPublishType Value="Resource" />
+        <IsLastPublish Value="True" />
+        <LastRunType Value="Unknown" />
       </Value>
     </Item>
   </Properties>

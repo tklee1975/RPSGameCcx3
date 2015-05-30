@@ -59,6 +59,12 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		732FF91F1B163ECA006A3C73 /* HomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 732FF91D1B163ECA006A3C73 /* HomeScene.cpp */; };
+		732FF9201B163ECA006A3C73 /* HomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 732FF91D1B163ECA006A3C73 /* HomeScene.cpp */; };
+		732FF9231B163FBE006A3C73 /* HomeSceneTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 732FF9211B163FBE006A3C73 /* HomeSceneTest.cpp */; };
+		732FF9241B163FBE006A3C73 /* HomeSceneTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 732FF9211B163FBE006A3C73 /* HomeSceneTest.cpp */; };
+		734D544E1B19BFF3007D8FDB /* ViewHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 734D544C1B19BFF3007D8FDB /* ViewHelper.cpp */; };
+		734D544F1B19BFF3007D8FDB /* ViewHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 734D544C1B19BFF3007D8FDB /* ViewHelper.cpp */; };
 		73E81B0D1B11DA1B004B8F26 /* SampleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81AF31B11DA1B004B8F26 /* SampleTest.cpp */; };
 		73E81B0E1B11DA1B004B8F26 /* SampleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81AF31B11DA1B004B8F26 /* SampleTest.cpp */; };
 		73E81B0F1B11DA1B004B8F26 /* TDDData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81AF71B11DA1B004B8F26 /* TDDData.cpp */; };
@@ -175,6 +181,12 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		732FF91D1B163ECA006A3C73 /* HomeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomeScene.cpp; path = View/HomeScene.cpp; sourceTree = "<group>"; };
+		732FF91E1B163ECA006A3C73 /* HomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeScene.h; path = View/HomeScene.h; sourceTree = "<group>"; };
+		732FF9211B163FBE006A3C73 /* HomeSceneTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HomeSceneTest.cpp; sourceTree = "<group>"; };
+		732FF9221B163FBE006A3C73 /* HomeSceneTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSceneTest.h; sourceTree = "<group>"; };
+		734D544C1B19BFF3007D8FDB /* ViewHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewHelper.cpp; path = Helper/ViewHelper.cpp; sourceTree = "<group>"; };
+		734D544D1B19BFF3007D8FDB /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewHelper.h; path = Helper/ViewHelper.h; sourceTree = "<group>"; };
 		73E81AF31B11DA1B004B8F26 /* SampleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleTest.cpp; sourceTree = "<group>"; };
 		73E81AF41B11DA1B004B8F26 /* SampleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTest.h; sourceTree = "<group>"; };
 		73E81AF51B11DA1B004B8F26 /* TDDCases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDCases.h; sourceTree = "<group>"; };
@@ -342,6 +354,10 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				734D544B1B19BFDF007D8FDB /* Helper */,
+				732FF91C1B163E79006A3C73 /* Logic */,
+				732FF91B1B163E5F006A3C73 /* Model */,
+				732FF91A1B163E57006A3C73 /* View */,
 				73E81AF21B11DA1B004B8F26 /* SimpleTDD */,
 				73E81B0B1B11DA1B004B8F26 /* UnitTest */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
@@ -400,6 +416,38 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
+		732FF91A1B163E57006A3C73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				732FF91D1B163ECA006A3C73 /* HomeScene.cpp */,
+				732FF91E1B163ECA006A3C73 /* HomeScene.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		732FF91B1B163E5F006A3C73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		732FF91C1B163E79006A3C73 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		734D544B1B19BFDF007D8FDB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				734D544C1B19BFF3007D8FDB /* ViewHelper.cpp */,
+				734D544D1B19BFF3007D8FDB /* ViewHelper.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		73E81AF21B11DA1B004B8F26 /* SimpleTDD */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +482,8 @@
 		73E81B0B1B11DA1B004B8F26 /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				732FF9211B163FBE006A3C73 /* HomeSceneTest.cpp */,
+				732FF9221B163FBE006A3C73 /* HomeSceneTest.h */,
 				73E81B211B138D5C004B8F26 /* ResourceTest.cpp */,
 				73E81B221B138D5C004B8F26 /* ResourceTest.h */,
 				73E81B0C1B11DA1B004B8F26 /* MyTDDCases.h */,
@@ -591,16 +641,19 @@
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				73E81B0D1B11DA1B004B8F26 /* SampleTest.cpp in Sources */,
+				732FF91F1B163ECA006A3C73 /* HomeScene.cpp in Sources */,
 				73E81B1D1B11DA1B004B8F26 /* TDDSwitch.cpp in Sources */,
 				73E81B111B11DA1B004B8F26 /* TDDHelper.cpp in Sources */,
 				73E81B151B11DA1B004B8F26 /* TDDMenuTest.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				732FF9231B163FBE006A3C73 /* HomeSceneTest.cpp in Sources */,
 				73E81B0F1B11DA1B004B8F26 /* TDDData.cpp in Sources */,
 				73E81B191B11DA1B004B8F26 /* TDDSubMenu.cpp in Sources */,
 				73E81B171B11DA1B004B8F26 /* TDDSample.cpp in Sources */,
 				73E81B231B138D5C004B8F26 /* ResourceTest.cpp in Sources */,
 				73E81B1F1B11DA1B004B8F26 /* TDDTest.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				734D544E1B19BFF3007D8FDB /* ViewHelper.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				73E81B131B11DA1B004B8F26 /* TDDMenu.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -621,7 +674,10 @@
 				73E81B181B11DA1B004B8F26 /* TDDSample.cpp in Sources */,
 				73E81B0E1B11DA1B004B8F26 /* SampleTest.cpp in Sources */,
 				73E81B201B11DA1B004B8F26 /* TDDTest.cpp in Sources */,
+				732FF9241B163FBE006A3C73 /* HomeSceneTest.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				732FF9201B163ECA006A3C73 /* HomeScene.cpp in Sources */,
+				734D544F1B19BFF3007D8FDB /* ViewHelper.cpp in Sources */,
 				73E81B1C1B11DA1B004B8F26 /* TDDSuite.cpp in Sources */,
 				73E81B121B11DA1B004B8F26 /* TDDHelper.cpp in Sources */,
 				73E81B1A1B11DA1B004B8F26 /* TDDSubMenu.cpp in Sources */,

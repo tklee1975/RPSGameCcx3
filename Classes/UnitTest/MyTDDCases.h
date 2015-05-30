@@ -11,6 +11,7 @@
 // Add the Header here!
 #include "TDDSample.h"
 #include "ResourceTest.h"
+#include "HomeSceneTest.h"
 
 //#include#
 // NOTE!!! The above line is used to generate new unit test, must not be removed.
@@ -20,7 +21,7 @@ TDD_CASES
 {
 	TEST(TDDSample),
 	TEST(ResourceTest),
-	
+	TEST(HomeSceneTest), 
 //#testcase#
 // NOTE!!! The above line is used to generate new unit test, must not be removed.
 };
