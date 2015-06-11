@@ -1,5 +1,5 @@
 <GameProjectFile>
-  <PropertyGroup Type="Scene" Name="HomeScene" ID="5a455eed-eb8d-4822-9cd1-7b00e345c66c" Version="2.2.8.0" />
+  <PropertyGroup Type="Scene" Name="HomeScene" ID="5a455eed-eb8d-4822-9cd1-7b00e345c66c" Version="2.2.9.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />

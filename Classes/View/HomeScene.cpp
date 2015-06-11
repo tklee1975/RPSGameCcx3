@@ -7,7 +7,6 @@
 //
 
 #include "HomeScene.h"
-
 // For cocos 2d
 using namespace cocos2d;
 
@@ -17,7 +16,7 @@ using namespace cocos2d;
 #include "ui/CocosGUI.h"
 #include "cocostudio/CocoStudio.h"
 
-#include "HelloWorldScene.h"
+#include "GameScene.h"
 #include "TDDHelper.h"
 #include "ViewHelper.h"
 
@@ -126,7 +125,7 @@ bool HomeSceneLayer::onTouchBegan(Touch *touch, Event *event)
 void HomeSceneLayer::gotoGameScene()
 {
 	// TODO: Flow to
-	auto scene = HelloWorld::createScene();
+	auto scene = GameSceneLayer::createScene();
 	Director::getInstance()->pushScene(scene);
 	
 }

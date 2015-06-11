@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="cocosui" Version="2.2.8.0" Type="CocosStudio" />
+  <PropertyGroup Name="cocosui" Version="2.2.9.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -16,6 +16,17 @@
         <Image Name="rps_dialog_border2.png" />
         <Image Name="rps_dialog_1.png" />
         <Project Name="HomeScene.csd" Type="Scene" />
+        <Project Name="Scene.csd" Type="Scene" />
+        <Project Name="RPSGameScene.csd" Type="Scene" />
+        <Project Name="RPSSelectLayer.csd" Type="Layer" />
+        <Project Name="GameOverLayer.csd" Type="Layer" />
+        <Project Name="GameWinLayer.csd" Type="Layer" />
+        <Image Name="blue_boxCheckmark.png" />
+        <Image Name="red_boxCross.png" />
+        <Image Name="zsht_success.png" />
+        <Folder Name="res">
+          <Image Name="tick.png" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

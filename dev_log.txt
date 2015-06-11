@@ -1,6 +1,16 @@
 
 Development Log for RPS (Rock Paper Scissors) Game
 
+12 Jun 2015 / kencoder
+------------------------------
+(https://github.com/tklee1975/RPSGameCcx3/releases/tag/game_scene))
+- Add GameScene with the following subView
+	- GameOverLayer for GameOver handling 
+	- GameWinLayer for player win or draw 
+	- RPSSelectLayer to let players select their moves
+- No RPS AI yet, hard coded what Computer will choose
+- No Yet handle the GameOver logic
+
 30 May 2015 / kencoder
 (https://github.com/tklee1975/RPSGameCcx3/releases/tag/home_scene)
 ------------------------------
