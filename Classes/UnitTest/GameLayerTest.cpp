@@ -68,7 +68,9 @@ void GameLayerTest::testGameOverLayer(Ref *sender)
 	log("this is a sample subTest");
 	
 	GameOverLayer *layer = GameOverLayer::create();
-	
+	layer->setCallback([](Ref *, UIButton button){
+		log("uiButton=%d", button);
+	});
 	addChild(layer);
 }
 

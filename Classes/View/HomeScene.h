@@ -34,7 +34,7 @@ public:
 	
 private:
 	void setupUI(Node *mainPanel);
-	
+	void updateRecordText();
 	
 	void setupTouchListener();
 	bool onTouchBegan(Touch *touch, Event *event);

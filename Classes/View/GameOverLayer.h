@@ -16,6 +16,8 @@
 #include "extensions/cocos-ext.h"
 #include "ui/CocosGUI.h"
 
+#include "GameType.h"
+
 USING_NS_CC_EXT;
 USING_NS_CC;
 using namespace cocos2d::ui;
@@ -23,18 +25,28 @@ using namespace cocos2d::ui;
 class GameOverLayer : public Layer
 {
 public:
+	typedef std::function<void(Ref *, UIButton)> GameOverLayerCallback;
+	
+public:
 	CREATE_FUNC(GameOverLayer);	// generate: static HomeSceneLayer *create();
 	
 	virtual bool init();
+	
+	void setCallback(const GameOverLayerCallback &callback);
 	
 	//	virtual void onEnter();
 	//	virtual void onExit();
 	
 private:
 	void setupUI(Node *mainPanel);
+	void callbackToOwner(UIButton buttonType);
+	void updateScore();
 	
 private:
-	
+	Text *mScoreText;
+	Button *mYesButton;
+	Button *mNoButton;
+	GameOverLayerCallback mCallback;
 };
 
 

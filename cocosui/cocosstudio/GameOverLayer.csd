@@ -9,7 +9,7 @@
           <AbstractNodeData Name="mainPanel" ActionTag="1863043122" Tag="27" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="355" Scale9Height="14" ctype="PanelObjectData">
             <Size X="400.0000" Y="120.0000" />
             <Children>
-              <AbstractNodeData Name="Text_1" ActionTag="1055551037" Tag="28" IconVisible="False" LeftMargin="31.0000" RightMargin="32.0000" TopMargin="12.0000" BottomMargin="58.0000" FontSize="36" LabelText="Score: 100 Best: 50" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="TextObjectData">
+              <AbstractNodeData Name="scoreText" ActionTag="1055551037" Tag="28" IconVisible="False" LeftMargin="31.0000" RightMargin="32.0000" TopMargin="12.0000" BottomMargin="58.0000" FontSize="36" LabelText="Score: 100 Best: 50" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="TextObjectData">
                 <Size X="337.0000" Y="50.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="199.5000" Y="83.0000" />
@@ -33,7 +33,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="okButton" ActionTag="-1281755332" Tag="41" IconVisible="False" LeftMargin="235.5000" RightMargin="126.5000" TopMargin="72.2500" BottomMargin="11.7500" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="12" RightEage="12" TopEage="11" BottomEage="11" Scale9OriginX="12" Scale9OriginY="11" Scale9Width="14" Scale9Height="14" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
+              <AbstractNodeData Name="yesButton" ActionTag="-1281755332" Tag="41" IconVisible="False" LeftMargin="235.5000" RightMargin="126.5000" TopMargin="72.2500" BottomMargin="11.7500" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="12" RightEage="12" TopEage="11" BottomEage="11" Scale9OriginX="12" Scale9OriginY="11" Scale9Width="14" Scale9Height="14" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
                 <Size X="38.0000" Y="36.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="254.5000" Y="29.7500" />
@@ -48,7 +48,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="cancelButton" ActionTag="-218354356" Tag="42" IconVisible="False" LeftMargin="285.0000" RightMargin="77.0000" TopMargin="72.2500" BottomMargin="11.7500" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="38" Scale9Height="36" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
+              <AbstractNodeData Name="noButton" ActionTag="-218354356" Tag="42" IconVisible="False" LeftMargin="285.0000" RightMargin="77.0000" TopMargin="72.2500" BottomMargin="11.7500" TouchEnable="True" FontSize="14" Scale9Enable="True" Scale9Width="38" Scale9Height="36" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="ButtonObjectData">
                 <Size X="38.0000" Y="36.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="304.0000" Y="29.7500" />

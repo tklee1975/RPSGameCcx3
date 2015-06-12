@@ -24,4 +24,10 @@ typedef enum {
 	GameDraw,
 }GameStatus;
 
+
+typedef enum {
+	UIButtonYes,
+	UIButtonNo,
+}UIButton;
+
 #endif /* defined(__RPSGame__GameType__) */

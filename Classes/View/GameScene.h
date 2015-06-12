@@ -46,6 +46,7 @@ private:
 	void gotoHomeScene();
 
 	void restart();
+	void startNextRound();
 	void handlePlayerMove(HandType type);
 	HandType getComputerMove(HandType playerMove);
 	GameStatus checkGameStatus(HandType playerMove, HandType comMove);

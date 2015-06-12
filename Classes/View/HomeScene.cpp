@@ -19,6 +19,7 @@ using namespace cocos2d;
 #include "GameScene.h"
 #include "TDDHelper.h"
 #include "ViewHelper.h"
+#include "GameData.h"
 
 using namespace cocostudio::timeline;
 
@@ -67,7 +68,19 @@ bool HomeSceneLayer::init()
 
 #pragma mark - UI Setup
 
-
+void HomeSceneLayer::updateRecordText()
+{
+	char temp[100];
+	
+	int bestScore = GameData::instance()->getBestScore();
+	if(bestScore == 0) {
+		sprintf(temp, "No record yet");
+	} else {
+		sprintf(temp, "Best: %d wins", bestScore);
+	}
+	
+	mBestScoreLabel->setString(temp);
+}
 
 void HomeSceneLayer::setupUI(Node *mainPanel)
 {
@@ -90,6 +103,9 @@ void HomeSceneLayer::onEnter()
 	Layer::onEnter();
 	
 	setupTouchListener();
+	
+	updateRecordText();
+
 }
 
 void HomeSceneLayer::onExit()

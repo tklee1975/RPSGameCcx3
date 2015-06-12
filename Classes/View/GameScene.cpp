@@ -15,6 +15,7 @@
 #include "RPSSelectLayer.h"
 #include "GameWinLayer.h"
 #include "GameOverLayer.h"
+#include "GameData.h"
 
 namespace {
 	const char *getSpriteNameForHand(HandType type) {
@@ -31,6 +32,13 @@ namespace {
 }
 
 void GameSceneLayer::restart()
+{
+	mWinCount = 0;
+	updateWin();
+	startNextRound();
+}
+
+void GameSceneLayer::startNextRound()
 {
 	changeHand(true, HandTypeNotShow);
 	changeHand(false, HandTypeNotShow);
@@ -140,6 +148,7 @@ GameStatus GameSceneLayer::checkGameStatus(HandType playerMove, HandType comMove
 void GameSceneLayer::handleGameStatus(GameStatus status)
 {
 	if(GameLose == status) {
+		GameData::instance()->setScore(mWinCount);
 		showLoseDialog();
 		return;
 	}
@@ -207,7 +216,7 @@ void GameSceneLayer::showWinDialog(GameStatus status)
 	layer->setGameStatus(status);
 	auto parent = this;
 	layer->setCallback([parent](Ref *) {
-		parent->restart();
+		parent->startNextRound();
 	});
 
 	
@@ -224,6 +233,10 @@ void GameSceneLayer::updateWin()
 	}
 }
 
+void GameSceneLayer::gotoHomeScene() {
+	Director::getInstance()->popToRootScene();
+}
+
 void GameSceneLayer::showLoseDialog()
 {
 	if(mDialogPanel == nullptr) {
@@ -233,6 +246,15 @@ void GameSceneLayer::showLoseDialog()
 	mDialogPanel->removeAllChildren();
 	
 	GameOverLayer *layer = GameOverLayer::create();
+	auto parent = this;
+	layer->setCallback([parent](Ref *, UIButton button) {
+		if(button == UIButtonYes) {
+			parent->restart();
+		} else {
+			parent->gotoHomeScene();
+		}
+	});
+
 	mDialogPanel->addChild(layer);
 }
 
