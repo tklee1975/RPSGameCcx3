@@ -1,6 +1,12 @@
 
 Development Log for RPS (Rock Paper Scissors) Game
 
+13 Jun 2015 / kencoder
+------------------------------
+(https://github.com/tklee1975/RPSGameCcx3/releases/tag/game_flow))
+- Add GameOver Flow Logic
+- Show Best record in HomeScene
+
 12 Jun 2015 / kencoder
 ------------------------------
 (https://github.com/tklee1975/RPSGameCcx3/releases/tag/game_scene))
