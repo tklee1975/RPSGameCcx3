@@ -27,5 +27,14 @@
         <LastRunType Value="Unknown" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="GameWinLayer.csd" />
+          <FilePathData Path="GameOverLayer.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="GameOverLayer.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>

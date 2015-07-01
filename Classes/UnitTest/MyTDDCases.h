@@ -14,6 +14,8 @@
 #include "HomeSceneTest.h"
 #include "GameSceneTest.h"
 #include "GameLayerTest.h"
+#include "RPSAITest.h"
+#include "LocalStoreTest.h"
 
 //#include#
 // NOTE!!! The above line is used to generate new unit test, must not be removed.
@@ -22,6 +24,8 @@
 TDD_CASES
 {
 	TEST(TDDSample),
+	TEST(LocalStoreTest), 
+	TEST(RPSAITest),
 	TEST(ResourceTest),
 	TEST(GameSceneTest),
 	TEST(HomeSceneTest),

@@ -16,6 +16,7 @@
 #include "GameWinLayer.h"
 #include "GameOverLayer.h"
 #include "GameData.h"
+#include "RPSAI.h"
 
 namespace {
 	const char *getSpriteNameForHand(HandType type) {
@@ -123,13 +124,7 @@ void GameSceneLayer::changeHand(bool isPlayer, HandType type)
 
 HandType GameSceneLayer::getComputerMove(HandType playerMove)
 {
-	if(playerMove == HandTypePaper) {
-		return HandTypeRock;
-	} else if(playerMove == HandTypeRock) {
-		return HandTypePaper;
-	} else {
-		return HandTypeScissor;
-	}
+	return RPSAI::instance()->getAIMove();
 }
 
 GameStatus GameSceneLayer::checkGameStatus(HandType playerMove, HandType comMove)

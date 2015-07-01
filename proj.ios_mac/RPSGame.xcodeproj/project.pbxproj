@@ -77,6 +77,10 @@
 		737136841B1CDD330039B2D5 /* GameOverLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 737136811B1CDD330039B2D5 /* GameOverLayer.cpp */; };
 		737136871B1CDEEA0039B2D5 /* GameLayerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 737136851B1CDEEA0039B2D5 /* GameLayerTest.cpp */; };
 		737136881B1CDEEA0039B2D5 /* GameLayerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 737136851B1CDEEA0039B2D5 /* GameLayerTest.cpp */; };
+		739589621B440530006701A8 /* LocalStoreTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 739589611B440530006701A8 /* LocalStoreTest.cpp */; };
+		739589631B440530006701A8 /* LocalStoreTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 739589611B440530006701A8 /* LocalStoreTest.cpp */; };
+		73ABEAFE1B2ECF6500908F2D /* RPSAITest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73ABEAFC1B2ECF6500908F2D /* RPSAITest.cpp */; };
+		73ABEAFF1B2ECF6500908F2D /* RPSAITest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73ABEAFC1B2ECF6500908F2D /* RPSAITest.cpp */; };
 		73B2DAC61B29F0070072CFF5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B2DAC41B29F0070072CFF5 /* GameData.cpp */; };
 		73B2DAC71B29F0070072CFF5 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B2DAC41B29F0070072CFF5 /* GameData.cpp */; };
 		73E81B0D1B11DA1B004B8F26 /* SampleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81AF31B11DA1B004B8F26 /* SampleTest.cpp */; };
@@ -103,6 +107,8 @@
 		73E81B241B138D5D004B8F26 /* ResourceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73E81B211B138D5C004B8F26 /* ResourceTest.cpp */; };
 		73E81B261B138D6C004B8F26 /* gui in Resources */ = {isa = PBXBuildFile; fileRef = 73E81B251B138D6C004B8F26 /* gui */; };
 		73E81B271B138D6C004B8F26 /* gui in Resources */ = {isa = PBXBuildFile; fileRef = 73E81B251B138D6C004B8F26 /* gui */; };
+		73EE43FA1B2B573D00FC368E /* RPSAI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73EE43F81B2B573D00FC368E /* RPSAI.cpp */; };
+		73EE43FB1B2B573D00FC368E /* RPSAI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73EE43F81B2B573D00FC368E /* RPSAI.cpp */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -214,6 +220,10 @@
 		737136821B1CDD330039B2D5 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = View/GameOverLayer.h; sourceTree = "<group>"; };
 		737136851B1CDEEA0039B2D5 /* GameLayerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLayerTest.cpp; sourceTree = "<group>"; };
 		737136861B1CDEEA0039B2D5 /* GameLayerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayerTest.h; sourceTree = "<group>"; };
+		739589611B440530006701A8 /* LocalStoreTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStoreTest.cpp; sourceTree = "<group>"; };
+		739589641B440539006701A8 /* LocalStoreTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStoreTest.h; sourceTree = "<group>"; };
+		73ABEAFC1B2ECF6500908F2D /* RPSAITest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RPSAITest.cpp; sourceTree = "<group>"; };
+		73ABEAFD1B2ECF6500908F2D /* RPSAITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSAITest.h; sourceTree = "<group>"; };
 		73B2DAC41B29F0070072CFF5 /* GameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameData.cpp; path = Logic/GameData.cpp; sourceTree = "<group>"; };
 		73B2DAC51B29F0070072CFF5 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameData.h; path = Logic/GameData.h; sourceTree = "<group>"; };
 		73E81AF31B11DA1B004B8F26 /* SampleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleTest.cpp; sourceTree = "<group>"; };
@@ -244,6 +254,8 @@
 		73E81B211B138D5C004B8F26 /* ResourceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceTest.cpp; sourceTree = "<group>"; };
 		73E81B221B138D5C004B8F26 /* ResourceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceTest.h; sourceTree = "<group>"; };
 		73E81B251B138D6C004B8F26 /* gui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gui; sourceTree = "<group>"; };
+		73EE43F81B2B573D00FC368E /* RPSAI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPSAI.cpp; path = Logic/RPSAI.cpp; sourceTree = "<group>"; };
+		73EE43F91B2B573D00FC368E /* RPSAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPSAI.h; path = Logic/RPSAI.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -475,6 +487,8 @@
 			children = (
 				73B2DAC41B29F0070072CFF5 /* GameData.cpp */,
 				73B2DAC51B29F0070072CFF5 /* GameData.h */,
+				73EE43F81B2B573D00FC368E /* RPSAI.cpp */,
+				73EE43F91B2B573D00FC368E /* RPSAI.h */,
 			);
 			name = Logic;
 			sourceTree = "<group>";
@@ -522,6 +536,10 @@
 		73E81B0B1B11DA1B004B8F26 /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				739589641B440539006701A8 /* LocalStoreTest.h */,
+				739589611B440530006701A8 /* LocalStoreTest.cpp */,
+				73ABEAFC1B2ECF6500908F2D /* RPSAITest.cpp */,
+				73ABEAFD1B2ECF6500908F2D /* RPSAITest.h */,
 				737136851B1CDEEA0039B2D5 /* GameLayerTest.cpp */,
 				737136861B1CDEEA0039B2D5 /* GameLayerTest.h */,
 				737136751B1C5D350039B2D5 /* GameSceneTest.cpp */,
@@ -689,9 +707,11 @@
 				73E81B1D1B11DA1B004B8F26 /* TDDSwitch.cpp in Sources */,
 				73E81B111B11DA1B004B8F26 /* TDDHelper.cpp in Sources */,
 				73E81B151B11DA1B004B8F26 /* TDDMenuTest.cpp in Sources */,
+				739589621B440530006701A8 /* LocalStoreTest.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				732FF9231B163FBE006A3C73 /* HomeSceneTest.cpp in Sources */,
 				73E81B0F1B11DA1B004B8F26 /* TDDData.cpp in Sources */,
+				73ABEAFE1B2ECF6500908F2D /* RPSAITest.cpp in Sources */,
 				7371367B1B1CDD0F0039B2D5 /* RPSSelectLayer.cpp in Sources */,
 				73E81B191B11DA1B004B8F26 /* TDDSubMenu.cpp in Sources */,
 				73B2DAC61B29F0070072CFF5 /* GameData.cpp in Sources */,
@@ -700,6 +720,7 @@
 				73E81B1F1B11DA1B004B8F26 /* TDDTest.cpp in Sources */,
 				737136871B1CDEEA0039B2D5 /* GameLayerTest.cpp in Sources */,
 				737136771B1C5D350039B2D5 /* GameSceneTest.cpp in Sources */,
+				73EE43FA1B2B573D00FC368E /* RPSAI.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				7371367F1B1CDD220039B2D5 /* GameWinLayer.cpp in Sources */,
 				737136731B1C5B9B0039B2D5 /* GameScene.cpp in Sources */,
@@ -728,12 +749,15 @@
 				73E81B141B11DA1B004B8F26 /* TDDMenu.cpp in Sources */,
 				73E81B181B11DA1B004B8F26 /* TDDSample.cpp in Sources */,
 				73E81B0E1B11DA1B004B8F26 /* SampleTest.cpp in Sources */,
+				73EE43FB1B2B573D00FC368E /* RPSAI.cpp in Sources */,
 				73E81B201B11DA1B004B8F26 /* TDDTest.cpp in Sources */,
 				732FF9241B163FBE006A3C73 /* HomeSceneTest.cpp in Sources */,
 				737136841B1CDD330039B2D5 /* GameOverLayer.cpp in Sources */,
 				737136741B1C5B9B0039B2D5 /* GameScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				739589631B440530006701A8 /* LocalStoreTest.cpp in Sources */,
 				732FF9201B163ECA006A3C73 /* HomeScene.cpp in Sources */,
+				73ABEAFF1B2ECF6500908F2D /* RPSAITest.cpp in Sources */,
 				734D544F1B19BFF3007D8FDB /* ViewHelper.cpp in Sources */,
 				73E81B1C1B11DA1B004B8F26 /* TDDSuite.cpp in Sources */,
 				73E81B121B11DA1B004B8F26 /* TDDHelper.cpp in Sources */,

@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "HomeScene.h"
+#include "GameData.h"
 
 USING_NS_CC;
 
@@ -70,6 +71,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	FileUtils::getInstance()->addSearchPath("gui");
 	FileUtils::getInstance()->addSearchPath("res");
 	FileUtils::getInstance()->addSearchPath("fonts");
+	
+	// Initialization
+	GameData::instance()->loadData();
 	
 
     // create a scene. it's an autorelease object

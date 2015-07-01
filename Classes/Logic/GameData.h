@@ -20,6 +20,8 @@ public: // Type and Enum
 	void setScore(int newScore);
 	int getLastScore();
 	int getBestScore();
+	void saveData();
+	void loadData();
 	
 private:
 	GameData();
