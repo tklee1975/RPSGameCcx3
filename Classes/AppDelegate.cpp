@@ -2,6 +2,7 @@
 #include "HelloWorldScene.h"
 #include "HomeScene.h"
 #include "GameData.h"
+#include "GameCommon.h"
 
 USING_NS_CC;
 
@@ -75,6 +76,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	// Initialization
 	GameData::instance()->loadData();
 	
+	// hide the FPS static for release mode
+	bool showFPS = IS_RELEASE == false;
+	director->setDisplayStats(showFPS);
 
     // create a scene. it's an autorelease object
     // auto scene = HelloWorld::createScene();

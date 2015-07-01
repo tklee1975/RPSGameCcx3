@@ -1,6 +1,11 @@
 
 Development Log for RPS (Rock Paper Scissors) Game
 
+2 Jul 2015 / kencoder
+-----------------------------
+(https://github.com/tklee1975/RPSGameCcx3/releases/tag/hide_fps)
+- Add logic to hide FPS for release build
+
 1 Jul 2015 / kencoder
 -----------------------------
 (https://github.com/tklee1975/RPSGameCcx3/releases/tag/game_ai))
