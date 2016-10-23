@@ -1,22 +1,22 @@
 <GameProjectFile>
-  <PropertyGroup Type="Layer" Name="RPSSelectLayer" ID="1a37df99-61cb-471d-a1e2-73d83a1470a7" Version="2.2.9.0" />
+  <PropertyGroup Type="Layer" Name="RPSSelectLayer" ID="1a37df99-61cb-471d-a1e2-73d83a1470a7" Version="2.3.2.3" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Layer" Tag="25" ctype="GameLayerObjectData">
         <Size X="400.0000" Y="120.0000" />
         <Children>
-          <AbstractNodeData Name="mainPanel" ActionTag="1863043122" Tag="27" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="355" Scale9Height="14" ctype="PanelObjectData">
+          <AbstractNodeData Name="mainPanel" ActionTag="1863043122" Tag="27" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="355" Scale9Height="14" ctype="PanelObjectData">
             <Size X="400.0000" Y="120.0000" />
             <Children>
-              <AbstractNodeData Name="Text_1" ActionTag="1055551037" Tag="28" IconVisible="False" LeftMargin="115.0000" RightMargin="112.0000" TopMargin="16.0000" BottomMargin="76.0000" FontSize="20" LabelText="Choose your move:" OutlineSize="1" ShadowOffsetX="2" ShadowOffsetY="-2" ctype="TextObjectData">
+              <AbstractNodeData Name="Text_1" ActionTag="1055551037" Tag="28" IconVisible="False" LeftMargin="115.0000" RightMargin="112.0000" TopMargin="16.0000" BottomMargin="76.0000" FontSize="20" LabelText="Choose your move:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="173.0000" Y="28.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="201.5000" Y="90.0000" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="30" G="144" B="255" />
                 <PrePosition X="0.5038" Y="0.7500" />
-                <PreSize />
+                <PreSize X="0.0000" Y="0.0000" />
                 <FontResource Type="Normal" Path="comic-sans.ttf" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
@@ -28,7 +28,7 @@
                 <Scale ScaleX="0.8000" ScaleY="0.8000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.2512" Y="0.3458" />
-                <PreSize />
+                <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="rps_rock.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
@@ -39,7 +39,7 @@
                 <Scale ScaleX="0.8000" ScaleY="0.8000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5206" Y="0.3458" />
-                <PreSize />
+                <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="rps_paper.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
@@ -50,7 +50,7 @@
                 <Scale ScaleX="0.8000" ScaleY="0.8000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.7900" Y="0.3458" />
-                <PreSize />
+                <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="rps_scissors.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>

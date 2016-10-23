@@ -1,4 +1,4 @@
-<UserData>
+<UserData Version="2.3.2.3">
   <Properties>
     <Item Key="PackageParamsKey">
       <Value ctype="PackageParams">
@@ -11,6 +11,7 @@
         <iOS_Target Value="cocosui iOS" />
         <iOS_BundleID Value="iPhone Developer: Ting Kwok Lee (NBAY29J2MG)" />
         <Platform Value="Android" />
+        <RunPlatform Value="None" />
         <FrameworkVersion Value="cocos2d-x-3.4" />
         <IsDebugKeystore Value="True" />
         <KeystorePassword Value="" />
@@ -24,16 +25,7 @@
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
-        <LastRunType Value="Unknown" />
-      </Value>
-    </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="GameWinLayer.csd" />
-          <FilePathData Path="GameOverLayer.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="GameOverLayer.csd" />
+        <LastRunType Value="Mac" />
       </Value>
     </Item>
   </Properties>
